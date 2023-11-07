@@ -1,0 +1,42 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  background-image: url("images/bg-line.jpg");
+  background-size: cover;
+}
+header {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+section {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  background: rgb(255, 249, 249);
+  border-radius: 15px;
+  padding: 8px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.383);
+}
+input#txtano {
+  border-radius: 20px;
+  height: 25px;
+  width: 220px;
+  text-align: center;
+  font-size: large;
+  background-color: rgba(158, 114, 233, 0.296);
+}
+div {
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+Footer {
+  color: whitesmoke;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+}

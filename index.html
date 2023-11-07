@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Exercicios 2</title>
+</head>
+<link rel="stylesheet" href="estilo.css">
+
+<body>
+    <header id="myheader">
+        <h1> Verificador de idade </h1>
+    </header>
+
+    <section>
+        <div>
+            <p> <!----Ano de nascimento: -->
+                <input type="number" name="txtano" id="txtano" min="1900" placeholder="Digite seu ano de nascimento">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <!-- Checked é para marcar obrigatóriamente uma caixa -->
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fam" checked>
+                <label for="fem">Feminino</label>
+            </p>
+            <p><input type="button" value="Verificar" onclick="verificar()"></p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+
+    </section>
+
+    <footer>&copy; Ollems Project</footer>
+    <script src="Scritp.js"></script>
+
+</body>
+
+</html>
